@@ -8845,3 +8845,19 @@ Started GET "/manifest.json" for 127.0.0.1 at 2025-11-07 20:26:46 +0100
   
 ActionController::RoutingError (No route matches [GET] "/manifest.json"):
   
+Started GET "/" for 127.0.0.1 at 2025-11-07 22:06:11 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 942)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 139)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 66.6ms | Allocations: 46812)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.0ms | Allocations: 49714)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2025-11-07 22:06:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
