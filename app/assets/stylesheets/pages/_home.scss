@@ -1,0 +1,70 @@
+
+.picture-tm{
+  // font-family: "Proxima Nova", sans-serif;
+  height: 600px;
+  width: 100%;
+  padding-top: 200px;
+  color: #B6D7E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  // color: white;
+
+
+}
+.banner{
+  cursor: url("https://res.cloudinary.com/dezfv3vmn/image/upload/v1675959917/Doriane%20Chatelain/petit_picto_xluzfh.png"), pointer;
+  color: #B6D7E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  @media screen and (max-width: 400px) {
+    color: #000000;
+  }
+  &__title{
+    font-size: 50px;
+    color: #B6D7E5;
+    @media screen and (max-width: 400px) {
+      color: #000000;
+    }
+  }
+  &__content{
+    font-size: 20px;
+    font-weight: bold;
+    @media screen and (max-width: 400px) {
+      color: #000000;
+    }
+  }
+  &__link{
+    font-size: 20px;
+    color: #B6D7E5;
+    @media screen and (max-width: 400px) {
+      color: #000000;
+    }
+    &:hover{
+      color:#fbA8A8;
+    }
+  }
+}
+#teddymuller{
+  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1675878692/Doriane%20Chatelain/WhatsApp_Image_2023-02-08_at_17.34.14_ak8pog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-malt{
+  font-family:'Courier New', Courier, monospace;
+  font-weight:bold;
+  background-color:  #1AABAC;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  opacity: 1;
+  &:hover{
+    opacity: 0.5;
+  }
+  &:after{
+    color: #fbA8A8;
+  }
+}

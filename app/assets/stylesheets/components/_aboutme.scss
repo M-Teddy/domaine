@@ -1,0 +1,45 @@
+.aboutme{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #F7F3F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  opacity: 1;
+  height: 400px;
+  @media screen and (max-width: 320px) {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+  @media screen and (max-width: 960px) {
+    height: auto;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+}
+.doriane{
+  // width: 60%;
+  max-width: 850px;
+  padding: 0 24px;
+  p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: #fbA8A8;
+    font-weight : 400;
+  }
+}
+.doriane-pict{
+  padding-left: 40px;
+  @media screen and (max-width: 320px) {
+    padding-left: 0;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
