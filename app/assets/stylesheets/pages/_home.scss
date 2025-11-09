@@ -4,7 +4,7 @@
   height: 600px;
   width: 100%;
   padding-top: 200px;
-  color: #B6D7E5;
+  color: #928272;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
@@ -16,15 +16,15 @@
 
 }
 .banner{
-  cursor: url("https://res.cloudinary.com/dezfv3vmn/image/upload/v1675959917/Doriane%20Chatelain/petit_picto_xluzfh.png"), pointer;
-  color: #B6D7E5;
+  // cursor: url("https://res.cloudinary.com/dezfv3vmn/image/upload/v1675959917/Doriane%20Chatelain/petit_picto_xluzfh.png"), pointer;
+  color: #928272;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   @media screen and (max-width: 400px) {
     color: #000000;
   }
   &__title{
     font-size: 50px;
-    color: #B6D7E5;
+    color: #928272;
     @media screen and (max-width: 400px) {
       color: #000000;
     }
@@ -38,7 +38,7 @@
   }
   &__link{
     font-size: 20px;
-    color: #B6D7E5;
+    color: #928272;
     @media screen and (max-width: 400px) {
       color: #000000;
     }
@@ -48,9 +48,10 @@
   }
 }
 #teddymuller{
-  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1675878692/Doriane%20Chatelain/WhatsApp_Image_2023-02-08_at_17.34.14_ak8pog.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  //background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1762700398/Domaine/automne_nrpwrj.png);
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  background-color: #F7F3F4;
 }
 
 .btn-malt{
