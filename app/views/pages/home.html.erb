@@ -1,11 +1,25 @@
+
 <div class="container banner" id="teddymuller">
-  <div class="picture-tm container">
-    <h1 class="banner__title">DOMAINE MOULIN DU TEMPLE</h1>
-    <p class="banner__content">Venez nous rendre visite !! </p>
-    <a href="#about" class="banner__link">Click pour toutes informations</a>
+  <div class="">
+
   </div>
 </div>
+
+
+
 <div class="container service" id="service">
+<div class="hero">
+  <video id="bgVideo" autoplay loop muted playsinline class="background-video">
+    <source src="https://res.cloudinary.com/dezfv3vmn/video/upload/v1762973411/Domaine/video-eau_rfr20s.mov" type="video/mp4">
+  </video>
+  <div class="content">
+  <br><br><br><br>
+    <h1>DOMAINE MOULIN DU TEMPLE</h1>
+    <br>
+    <p>« Le murmure de l’eau apaise là où les mots échouent. »</p>
+
+    <button id="soundBtn">🔊 Activer le son</button>
+    <br><br><br>
   <ul class="cards1">
     <li class="card1">
       <img src="https://res.cloudinary.com/dezfv3vmn/image/upload/v1762700836/Domaine/He%CC%81bergement_-_2_f394re.png" alt="" class="card1__img card1__img--full">
@@ -25,10 +39,16 @@
     <li class="card1">
       <img src="https://res.cloudinary.com/dezfv3vmn/image/upload/v1762703320/Domaine/He%CC%81bergement_g93tby.png" alt="" class="card1__img card1__img--full"></a>
       <h4 class="card1__title">Collaboration</h4>
-      <p>The art and the way to highlight your brand through words.</p>
+      <p>Nous sommes à l'écoute pour des collaborations !</p>
     </li>
   </ul>
 </div>
+
+</div>
+</div>
+
+
+
 <div class="container separation">
   <p>"Réservez les gîtes directement sur airbnb"</p>
 </div>
@@ -250,17 +270,15 @@
 </div>
 <div class="container aboutme" >
   <div class="doriane" >
-    <p id="about">My name is Doriane, I am 26 years old and I am Franco-Spanish.
+    <p id="about">Notre rêve se réalise jour après jour.
       <br><br>
-      Since my birth I have been immersed in this double culture which allows me today to have an ease in languages ​​and a great open-mindedness.
+      Rencontrer, partager, offrir des moments inoubliables.
       <br><br>
-      After obtaining a degree in Communication Manager and then having worked in events for 4 years, I decided to stand on my own feet by using my know-how to help companies develop.
-      <br><br>
-      Do you have a project ? Let me know.
+      Développer ce domaine tout en respectant son histoire.
     </p>
   </div>
   <div class="doriane-pict">
-    <img src="https://res.cloudinary.com/dezfv3vmn/image/upload/v1676223013/Doriane%20Chatelain/photo_de_profil_i997kj.png" alt="" class="avatar-xxlarge">
+    <img src="https://res.cloudinary.com/dezfv3vmn/image/upload/v1762972340/Domaine/domaine-MDT_z9x0qv.jpg" alt="" class="avatar-xxlarge">
   </div>
 </div>
 
@@ -319,4 +337,14 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+</script>
+
+<script>
+  const video = document.getElementById("bgVideo");
+  const soundBtn = document.getElementById("soundBtn");
+
+  soundBtn.addEventListener("click", () => {
+    video.muted = !video.muted;
+    soundBtn.textContent = video.muted ? "🔊 Activer le son" : "🔇 Couper le son";
+  });
 </script>
